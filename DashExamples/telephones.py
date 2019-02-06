@@ -8,6 +8,7 @@ from dash.dependencies import Input, Output
 
 data = pd.read_csv("https://cdn.opensource.faculty.ai/world-phones/data.csv")
 
+#print(data.head())
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 controls = dbc.Card(
