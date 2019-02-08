@@ -19,7 +19,13 @@ app.layout = html.Div(children=[
         Stock Prices
     '''),
 
-    dcc.Input(id='input', value='', type='text'),
+    dcc.Dropdown(
+        id='input',
+        options=[
+            {'label': 'Apple', 'value': 'AAPL'},
+            {'label': 'Tesla', 'value': 'TSLA'},
+            ], 
+        value='TSLA'),
     html.Div(id='output-graph')
 
     

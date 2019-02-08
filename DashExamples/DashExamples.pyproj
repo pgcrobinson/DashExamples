@@ -6,7 +6,7 @@
     <ProjectGuid>b660eea9-3a8a-4fdd-beb6-ff791ee6ae61</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>dropdowns.py</StartupFile>
+    <StartupFile>dash_tutorial_p3dev2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -46,9 +46,19 @@
     <Compile Include="dash_tutorial_p3dev.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dash_tutorial_p3dev2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dataframes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dropdowns.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dropdown_multi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dropdown_multi_property.py" />
     <Compile Include="faithful.py">
       <SubType>Code</SubType>
     </Compile>
